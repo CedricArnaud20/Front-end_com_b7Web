@@ -3,4 +3,4 @@ document.write('Vamos estudar Js');
 
 window.alert('Olá mundo');
 
-console.log('Esse são meus aprendizados')
+console.log('Esse são meus aprendizados');
