@@ -1,12 +1,15 @@
 .container{
    
-    display: grid;
+    /*display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr ;
     
     gap: 10px; /*espaçamento entre as colunas*/
 
-
-}
+    /*USANDO REPEAT*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 200px;/*auto; autofill*/
+    grid-gap: 10px;
+} 
 
 .item{
     background-color: #0000ff;
