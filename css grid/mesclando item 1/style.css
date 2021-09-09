@@ -1,9 +1,10 @@
 .container{
-    background-color:rgb(145, 145, 145);
+    background-color:red;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,200px);
     grid-gap: 10px;
-   
+    justify-content: stretch;
+    align-items: center
    
 } 
 
@@ -13,8 +14,4 @@
     padding: 20px;
     color: #fff;
     font-size: 20px;
-}
-.item1{
-    grid-column-start: 1;
-    grid-column-end: 3; 
 }
